@@ -1,0 +1,183 @@
+
+.wishlist-container {
+  background-image: url('../assets/creative-background.jpg'); // Replace with your creative background image
+  background-size: cover;
+  background-position: center;
+  height: 100vh; // Set the height to cover the full viewport height
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.wishlist-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.wishlist-items li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.remove-btn {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #ff1a1a;
+}
+
+.add-item-form {
+  margin-top: 20px;
+}
+
+.add-item-form input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.add-item-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-item-form button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  color: #0a0a0a; 
+  font-size: 2rem; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.8); // Semi-transparent background for wishlist items
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 50px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form button[type="submit"] {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+// .wishlist-container {
+//   background-image: url('../assets/creative-background.jpg'); 
+//   background-size:100%;
+//   background-position: center;
+//   padding: 20px;
+//   border-radius: 10px;
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+//   // Other styling for wishlist items
+// }
+
+// .wishlist-items {
+//   list-style-type: none;
+//   padding: 0;
+// }
+
+// .wishlist-items li {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   margin-bottom: 10px;
+// }
+
+// .item-name {
+//   font-weight: bold;
+// }
+
+// .item-price {
+//   margin-left: 20px;
+// }
+
+// .remove-btn {
+//   background-color: #ff5a5f;
+//   color: white;
+//   border: none;
+//   padding: 5px 10px;
+//   border-radius: 5px;
+//   cursor: pointer;
+// }
+
+// .remove-btn:hover {
+//   background-color: #ff1a1a;
+// }
+
+// .add-item-form {
+//   margin-top: 20px;
+// }
+
+// .add-item-form input {
+//   margin-right: 10px;
+//   padding: 5px;
+// }
+
+// .add-item-form button {
+//   background-color: #007bff;
+//   color: white;
+//   border: none;
+//   padding: 5px 10px;
+//   border-radius: 5px;
+//   cursor: pointer;
+// }
+
+// .add-item-form button:hover {
+//   background-color: #0056b3;
+// }

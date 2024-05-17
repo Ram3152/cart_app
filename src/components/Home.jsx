@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import ProductCard from './ProductCard';
 
 const Home = () => {
-  const [productList, setProductList] = useState([]);
+  const [productList, setProductList] =  useState([]);
   const dispatch = useDispatch();
 
   useEffect(() => {

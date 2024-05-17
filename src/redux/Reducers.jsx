@@ -12,7 +12,7 @@ subTotal:0,
 shipping:0,
 tax:0,
 total:0,
-},(builder)=>{ builder
+},(builder)=>{  builder
 .addCase(addToCart,(state,action)=>{
     const item=action.payload;
     const isItemExist =state.cartItem.find((i)=>i.id=== item.id);

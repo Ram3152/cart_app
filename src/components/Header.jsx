@@ -7,7 +7,7 @@ import logo from '../assets/Screenshot (43).png';
 const Header = () => {
   const { cartItem } = useSelector(state => state.cart);
 
-  const handleFilter = (category) => {
+  const handleFilter = ( category) => {
     const allProducts = [];
     const filteredProducts = allProducts.filter(product => product.category === category);
     console.log(filteredProducts); 

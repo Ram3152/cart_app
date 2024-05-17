@@ -9,7 +9,7 @@ const Cart = () => {
   const [showScanner, setShowScanner] = useState(false); 
   const increment = (id) => {
     dispatch({
-      type: "addToCart",
+      type: " addToCart ",
       payload: { id },
     });
     dispatch({

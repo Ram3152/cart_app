@@ -15,7 +15,7 @@ const ProductDetailsPage = () => {
       const response = await axios.get(`https://fakestoreapi.com/products/${productId}`);
       setProduct(response.data);
     } catch (error) {
-      console.error('Error fetching product details:', error);
+      console.error('Error fetching product details :', error);
     }
   };
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProductCard = ({ name, imgSrc, price, id, handler }) => (
-  <div className='productCard'>
+  <div className="productCard">
     <img src={imgSrc} alt={name}/>
     <h2>{name}</h2>
     <h4>${price}</h4>

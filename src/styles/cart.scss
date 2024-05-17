@@ -109,7 +109,7 @@ grid-template-columns: 4fr 1fr;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%; // Make the container take the full height of its parent
+    height: 100%; 
   
     .scanner-img {
       max-width: 250px; 
@@ -117,7 +117,7 @@ grid-template-columns: 4fr 1fr;
     }
   
     p {
-      margin-top: 20px; // Add some space below the scanner image
+      margin-top: 20px; 
     }
   }
   

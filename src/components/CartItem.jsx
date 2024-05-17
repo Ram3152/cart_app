@@ -3,7 +3,7 @@ import { AiFillDelete } from 'react-icons/ai';
 
 const CartItem = ({ imgSrc, name, price, qty, decrement, increment, deleteHandler, id }) => {
   return (
-    <div className="cartItem">
+    <div className=" cartItem ">
       <img src={imgSrc} alt='Item' />
       <article>
         <h3>{name}</h3>

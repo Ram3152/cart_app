@@ -3,11 +3,11 @@ import { AiFillDelete } from 'react-icons/ai';
 
 const CartItem = ({ imgSrc, name, price, qty, decrement, increment, deleteHandler, id }) => {
   return (
-    <div className=" cartItem ">
+    <div className="cartItem">
       <img src={imgSrc} alt='Item' />
       <article>
         <h3>{name}</h3>
-        <p>₹{price.toFixed(2)}</p> 
+        <p>$ {price}</p>
       </article>
       <div>
         <button onClick={() => decrement(id)}>-</button>
